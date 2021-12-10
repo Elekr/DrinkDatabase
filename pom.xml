@@ -14,8 +14,7 @@
 	<name>DrinkDatabase</name>
 	<description>Cocktail drink database</description>
 	<properties>
-		<java.version>11it
-		</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
