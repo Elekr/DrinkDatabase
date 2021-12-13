@@ -1,11 +1,15 @@
 package com.tsi.crosby.tom.DrinkDatabase;
 
+import com.amazonaws.services.secretsmanager.AWSSecretsManager;
+import com.amazonaws.services.secretsmanager.AWSSecretsManagerClientBuilder;
+import com.amazonaws.services.secretsmanager.model.*;
 import com.google.gson.Gson;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.Base64;
 
 @Entity
 public class Cocktail {
@@ -41,3 +45,4 @@ public class Cocktail {
     String name;
     int Cocktail_Instructions_number_of_instructions;
 }
+
